@@ -12,7 +12,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.4",
-        "laminas/laminas-component-installer": "^1.0 || ^0.3 || ^1.0.0-dev@dev",
+        "laminas/laminas-component-installer": "^2.4.0",
         "zendframework/zendframework": "^3",
         "laminas/laminas-mvc": "^3",
         "solarium/solarium": "~3",
