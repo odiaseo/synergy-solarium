@@ -21,7 +21,7 @@
         "laminas/laminas-cache": "^2.7.1",
         "laminas/laminas-captcha": "^2.6",
         "laminas/laminas-code": "^3.0.2",
-        "laminas/laminas-config": "^2.6",
+        "laminas/laminas-config": "^3.6",
         "laminas/laminas-console": "^2.6",
         "laminas/laminas-crypt": "^3.0",
         "laminas/laminas-db": "^2.8.1",
