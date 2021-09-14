@@ -67,7 +67,7 @@
         "laminas/laminas-session": "^2.7.1",
         "laminas/laminas-soap": "^2.6",
         "laminas/laminas-stdlib": "^3.0.1",
-        "laminas/laminas-stratigility": "^1.2.1",
+        "laminas/laminas-stratigility": "^3.5.0",
         "laminas/laminas-tag": "^2.6.1",
         "laminas/laminas-test": "^3.0.1",
         "laminas/laminas-text": "^2.6",
