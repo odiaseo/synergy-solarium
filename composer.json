@@ -57,7 +57,7 @@
         "laminas/laminas-navigation": "^2.8.1",
         "laminas/laminas-paginator": "^2.7",
         "laminas/laminas-permissions-acl": "^2.6",
-        "laminas/laminas-permissions-rbac": "^2.5.1",
+        "laminas/laminas-permissions-rbac": "^3.3.0",
         "laminas/laminas-progressbar": "^2.5.2",
         "laminas/laminas-psr7bridge": "^0.2.2",
         "laminas/laminas-serializer": "^2.8",
