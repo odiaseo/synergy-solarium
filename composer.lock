@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "937925dbcf3e45da1c2d5481329c1960",
+    "content-hash": "34b2cad1a21d94696a3309e8dbcdb315",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -6766,20 +6766,20 @@
         },
         {
             "name": "psr/container",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
+                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
-                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/513e0666f7216c7459170d56df27dfcefe1689ea",
+                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.0"
+                "php": ">=7.4.0"
             },
             "type": "library",
             "autoload": {
@@ -6808,9 +6808,166 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/1.1.1"
+                "source": "https://github.com/php-fig/container/tree/1.1.2"
             },
-            "time": "2021-03-05T17:36:06+00:00"
+            "time": "2021-11-05T16:50:12+00:00"
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/event-dispatcher.git",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\EventDispatcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Standard interfaces for event handling.",
+            "keywords": [
+                "events",
+                "psr",
+                "psr-14"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/event-dispatcher/issues",
+                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
+            },
+            "time": "2019-01-08T18:20:26+00:00"
+        },
+        {
+            "name": "psr/http-client",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-client.git",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP clients",
+            "homepage": "https://github.com/php-fig/http-client",
+            "keywords": [
+                "http",
+                "http-client",
+                "psr",
+                "psr-18"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-client/tree/master"
+            },
+            "time": "2020-06-29T06:28:15+00:00"
+        },
+        {
+            "name": "psr/http-factory",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-factory.git",
+                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for PSR-7 HTTP message factories",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "psr",
+                "psr-17",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-factory/tree/master"
+            },
+            "time": "2019-04-30T12:38:16+00:00"
         },
         {
             "name": "psr/http-message",
@@ -7601,41 +7758,43 @@
         },
         {
             "name": "solarium/solarium",
-            "version": "3.8.1",
+            "version": "6.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solariumphp/solarium.git",
-                "reference": "c353babec89fdbe8c64054bfec8e77bcb5da6705"
+                "reference": "cefde7709ba6290b78bb98d4ca11899cc0eb956e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/c353babec89fdbe8c64054bfec8e77bcb5da6705",
-                "reference": "c353babec89fdbe8c64054bfec8e77bcb5da6705",
+                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/cefde7709ba6290b78bb98d4ca11899cc0eb956e",
+                "reference": "cefde7709ba6290b78bb98d4ca11899cc0eb956e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2",
-                "symfony/event-dispatcher": "~2.3|~3.0"
+                "composer-runtime-api": ">=2.0",
+                "ext-json": "*",
+                "php": "^7.3 || ^8.0",
+                "psr/event-dispatcher": "^1.0",
+                "psr/http-client": "^1.0",
+                "psr/http-factory": "^1.0",
+                "symfony/event-dispatcher-contracts": "^1.0 || ^2.0 || ^3.0"
             },
             "require-dev": {
-                "guzzlehttp/guzzle": "^3.8 || ^6.2",
-                "phpunit/phpunit": "~3.7",
-                "satooshi/php-coveralls": "~1.0",
-                "squizlabs/php_codesniffer": "~1.4",
-                "zendframework/zendframework1": "~1.12"
-            },
-            "suggest": {
-                "minimalcode/search": "Query builder compatible with Solarium, allows simplified solr-query handling"
+                "escapestudios/symfony2-coding-standard": "^3.11",
+                "guzzlehttp/guzzle": "^7.2",
+                "nyholm/psr7": "^1.2",
+                "php-http/guzzle7-adapter": "^0.1",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^9.5",
+                "roave/security-advisories": "dev-master",
+                "symfony/event-dispatcher": "^4.3 || ^5.0 || ^6.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-develop": "3.3.x-dev"
-                }
-            },
             "autoload": {
-                "psr-0": {
-                    "Solarium\\": "library/"
+                "psr-4": {
+                    "Solarium\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7645,7 +7804,7 @@
             "authors": [
                 {
                     "name": "See GitHub contributors",
-                    "homepage": "https://github.com/basdenooijer/solarium/contributors"
+                    "homepage": "https://github.com/solariumphp/solarium/contributors"
                 }
             ],
             "description": "PHP Solr client",
@@ -7657,50 +7816,45 @@
             ],
             "support": {
                 "issues": "https://github.com/solariumphp/solarium/issues",
-                "source": "https://github.com/solariumphp/solarium/tree/master"
+                "source": "https://github.com/solariumphp/solarium/tree/6.2.6"
             },
-            "time": "2017-02-02T13:32:22+00:00"
+            "time": "2022-07-22T10:29:01+00:00"
         },
         {
-            "name": "symfony/event-dispatcher",
-            "version": "v3.4.47",
+            "name": "symfony/event-dispatcher-contracts",
+            "version": "v2.5.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "31fde73757b6bad247c54597beef974919ec6860"
+                "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                "reference": "f98b54df6ad059855739db6fcbc2d36995283fe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/31fde73757b6bad247c54597beef974919ec6860",
-                "reference": "31fde73757b6bad247c54597beef974919ec6860",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/f98b54df6ad059855739db6fcbc2d36995283fe1",
+                "reference": "f98b54df6ad059855739db6fcbc2d36995283fe1",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9|>=7.0.8"
-            },
-            "conflict": {
-                "symfony/dependency-injection": "<3.3"
-            },
-            "require-dev": {
-                "psr/log": "~1.0",
-                "symfony/config": "~2.8|~3.0|~4.0",
-                "symfony/debug": "~3.4|~4.4",
-                "symfony/dependency-injection": "~3.3|~4.0",
-                "symfony/expression-language": "~2.8|~3.0|~4.0",
-                "symfony/stopwatch": "~2.8|~3.0|~4.0"
+                "php": ">=7.2.5",
+                "psr/event-dispatcher": "^1"
             },
             "suggest": {
-                "symfony/dependency-injection": "",
-                "symfony/http-kernel": ""
+                "symfony/event-dispatcher-implementation": ""
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.5-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\EventDispatcher\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
+                    "Symfony\\Contracts\\EventDispatcher\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -7708,18 +7862,26 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony EventDispatcher Component",
+            "description": "Generic abstractions related to dispatching event",
             "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher/tree/v3.4.47"
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v2.5.2"
             },
             "funding": [
                 {
@@ -7735,7 +7897,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T10:57:07+00:00"
+            "time": "2022-01-02T09:53:40+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -8495,113 +8657,6 @@
             "time": "2020-12-24T09:17:03+00:00"
         },
         {
-            "name": "psr/http-client",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-client.git",
-                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
-                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0 || ^8.0",
-                "psr/http-message": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Http\\Client\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for HTTP clients",
-            "homepage": "https://github.com/php-fig/http-client",
-            "keywords": [
-                "http",
-                "http-client",
-                "psr",
-                "psr-18"
-            ],
-            "support": {
-                "source": "https://github.com/php-fig/http-client/tree/master"
-            },
-            "time": "2020-06-29T06:28:15+00:00"
-        },
-        {
-            "name": "psr/http-factory",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-factory.git",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0.0",
-                "psr/http-message": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Http\\Message\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interfaces for PSR-7 HTTP message factories",
-            "keywords": [
-                "factory",
-                "http",
-                "message",
-                "psr",
-                "psr-17",
-                "psr-7",
-                "request",
-                "response"
-            ],
-            "support": {
-                "source": "https://github.com/php-fig/http-factory/tree/master"
-            },
-            "time": "2019-04-30T12:38:16+00:00"
-        },
-        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -8801,40 +8856,34 @@
         },
         {
             "name": "symfony/contracts",
-            "version": "v1.1.10",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "011c20407c4b99d454f44021d023fb39ce23b73d"
+                "reference": "d3636025e8253c6144358ec0a62773cae588395b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/011c20407c4b99d454f44021d023fb39ce23b73d",
-                "reference": "011c20407c4b99d454f44021d023fb39ce23b73d",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/d3636025e8253c6144358ec0a62773cae588395b",
+                "reference": "d3636025e8253c6144358ec0a62773cae588395b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1.3",
-                "psr/cache": "^1.0",
-                "psr/container": "^1.0"
-            },
-            "replace": {
-                "symfony/cache-contracts": "self.version",
-                "symfony/event-dispatcher-contracts": "self.version",
-                "symfony/http-client-contracts": "self.version",
-                "symfony/service-contracts": "self.version",
-                "symfony/translation-contracts": "self.version"
+                "php": "^7.1.3"
             },
             "require-dev": {
+                "psr/cache": "^1.0",
+                "psr/container": "^1.0",
                 "symfony/polyfill-intl-idn": "^1.10"
             },
             "suggest": {
-                "psr/event-dispatcher": "When using the EventDispatcher contracts",
-                "symfony/cache-implementation": "",
+                "psr/cache": "When using the Cache contracts",
+                "psr/container": "When using the Service contracts",
+                "symfony/cache-contracts-implementation": "",
                 "symfony/event-dispatcher-implementation": "",
-                "symfony/http-client-implementation": "",
-                "symfony/service-implementation": "",
-                "symfony/translation-implementation": ""
+                "symfony/http-client-contracts-implementation": "",
+                "symfony/service-contracts-implementation": "",
+                "symfony/translation-contracts-implementation": ""
             },
             "type": "library",
             "extra": {
@@ -8875,23 +8924,9 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/contracts/tree/v1.1.10"
+                "source": "https://github.com/symfony/contracts/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2020-09-02T16:08:58+00:00"
+            "time": "2019-04-27T14:29:50+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -9186,6 +9221,85 @@
             "time": "2021-05-21T13:25:03+00:00"
         },
         {
+            "name": "symfony/service-contracts",
+            "version": "v1.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "afa00c500c2d6aea6e3b2f4862355f507bc5ebb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/afa00c500c2d6aea6e3b2f4862355f507bc5ebb4",
+                "reference": "afa00c500c2d6aea6e3b2f4862355f507bc5ebb4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3",
+                "psr/container": "^1.0"
+            },
+            "suggest": {
+                "symfony/service-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.1-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Service\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to writing services",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/service-contracts/tree/v1.1.13"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-05-27T14:01:05+00:00"
+        },
+        {
             "name": "symfony/stopwatch",
             "version": "v5.3.4",
             "source": {
@@ -9328,5 +9442,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
