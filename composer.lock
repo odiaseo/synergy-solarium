@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15fd2b6a11b0d3e917da422ce1fb1a58",
+    "content-hash": "2de2e86913fa24e6b41a0fd244ae15cb",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -3264,36 +3264,31 @@
         },
         {
             "name": "laminas/laminas-permissions-rbac",
-            "version": "2.5.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-permissions-rbac.git",
-                "reference": "d31f28e80aa4cf9e1a5d223156ae01cff3a6ef71"
+                "reference": "b3c376fdc0eae3d5208280d57cd9bb766c3d85a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-permissions-rbac/zipball/d31f28e80aa4cf9e1a5d223156ae01cff3a6ef71",
-                "reference": "d31f28e80aa4cf9e1a5d223156ae01cff3a6ef71",
+                "url": "https://api.github.com/repos/laminas/laminas-permissions-rbac/zipball/b3c376fdc0eae3d5208280d57cd9bb766c3d85a0",
+                "reference": "b3c376fdc0eae3d5208280d57cd9bb766c3d85a0",
                 "shasum": ""
             },
             "require": {
-                "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": ">=5.3.23"
+                "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
             },
-            "replace": {
-                "zendframework/zend-permissions-rbac": "self.version"
+            "conflict": {
+                "zendframework/zend-permissions-rbac": "*"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "1.7.*",
-                "phpunit/phpunit": "~4.0"
+                "laminas/laminas-coding-standard": "~2.4.0",
+                "phpunit/phpunit": "^9.5.26",
+                "psalm/plugin-phpunit": "^0.18.0",
+                "vimeo/psalm": "^4.29.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.5-dev",
-                    "dev-develop": "2.6-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Laminas\\Permissions\\Rbac\\": "src/"
@@ -3303,10 +3298,12 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "provides a role-based access control management",
+            "description": "Provides a role-based access control management",
             "homepage": "https://laminas.dev",
             "keywords": [
+                "authorization",
                 "laminas",
+                "laminas-permissions-rbac",
                 "rbac"
             ],
             "support": {
@@ -3317,7 +3314,13 @@
                 "rss": "https://github.com/laminas/laminas-permissions-rbac/releases.atom",
                 "source": "https://github.com/laminas/laminas-permissions-rbac"
             },
-            "time": "2019-12-31T17:37:54+00:00"
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2022-11-15T23:03:03+00:00"
         },
         {
             "name": "laminas/laminas-progressbar",
