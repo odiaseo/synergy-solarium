@@ -43,7 +43,7 @@
         "laminas/laminas-mvc-i18n": "*",
         "laminas/laminas-navigation": "*",
         "laminas/laminas-paginator": "*",
-        "laminas/laminas-psr7bridge": "^1.8",
+        "laminas/laminas-psr7bridge": "*",
         "laminas/laminas-serializer": "*",
         "laminas/laminas-servicemanager": "*",
         "laminas/laminas-session": "*",
@@ -54,13 +54,12 @@
         "laminas/laminas-validator": "*",
         "laminas/laminas-view": "*",
         "laminas/laminas-stdlib": "*",
-        "laminas/laminas-dependency-plugin": "^2.2"
+        "laminas/laminas-dependency-plugin": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
-        "php-coveralls/php-coveralls": "^2.4",
-        "phpspec/prophecy": "^1.16",
-        "phpspec/prophecy-phpunit": "^2.0"
+        "php-coveralls/php-coveralls": "*",
+        "phpspec/prophecy-phpunit": "*"
     },
     "autoload": {
         "psr-0": {
@@ -79,6 +78,7 @@
         }
     ],
     "config": {
+        "sort-packages": true,
         "allow-plugins": {
             "laminas/laminas-component-installer": true,
             "laminas/laminas-dependency-plugin": true
