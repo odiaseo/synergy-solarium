@@ -24,8 +24,6 @@ class SolariumFactory implements FactoryInterface
     public function __invoke(ContainerInterface $serviceLocator, $requestedName, array $options = null)
     {
         $config = $serviceLocator->get('Configuration');
-        $client = new Client(isset($config['solarium']) ? $config['solarium'] : array());
-
-        return $client;
+        return new Client(isset($config['solarium']) ? $config['solarium'] : array());
     }
 }

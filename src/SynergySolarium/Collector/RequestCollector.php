@@ -2,8 +2,6 @@
 
 namespace SynergySolarium\Collector;
 
-use Laminas\DeveloperTools\Collector\AutoHideInterface;
-use Laminas\DeveloperTools\Collector\CollectorInterface;
 use SynergySolarium\Plugin\RequestLogger;
 use Laminas\Mvc\MvcEvent;
 
@@ -13,7 +11,7 @@ use Laminas\Mvc\MvcEvent;
  * @license MIT
  * @package SynergySolarium
  */
-class RequestCollector implements CollectorInterface, AutoHideInterface
+class RequestCollector
 {
     /**
      * Solarium request logger

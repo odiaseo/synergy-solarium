@@ -7,13 +7,15 @@ use Solarium\Client;
 use Solarium\QueryType\Select\Query\Query;
 use SynergySolarium\Paginator\Adapter\SolariumPaginator;
 use Solarium\QueryType\Select\Result\Result;
-
+use Prophecy\PhpUnit\ProphecyTrait;
 
 class SolariumTest extends TestCase
 {
+    use ProphecyTrait;
+
     protected $serviceManager;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->serviceManager = Bootstrap::getServicemanager();
     }
